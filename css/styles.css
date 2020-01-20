@@ -1,7 +1,7 @@
 ul{
 	display:grid;
-	grid-template-columns: repeat(5,0.5fr) 1.2fr 2fr; 
-	grid-template-rows: repeat(5,5em) 10em 10em; 
+	grid-template-columns: repeat(5,5fr) 1.2fr 2fr; 
+	grid-template-rows: repeat(5,20em) 10em 10em; 
 }
 li{
 	list-style:none;
@@ -38,6 +38,78 @@ li:nth-child(5){
 li:nth-child(6){
 	background: white;
 	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(7){
+	background: black;
+	grid-column: span 1;
+	grid-row: span 2;
+	height:100%;
+}
+li:nth-child(8){
+	background: yellow;
+	grid-column: span 2;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(9){
+	background: red;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(10){
+	background: blue;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(11){
+	background: white;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(12){
+	background: black;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(13){
+	background: red;
+	grid-column: span 1;
+	grid-row: span 2;
+	height:100%;
+}
+li:nth-child(14){
+	background: white;
+	grid-column: span 2;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(15){
+	background: white;
+	grid-column: span 2;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(16){
+	background: yellow;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(17){
+	background: white;
+	grid-column: span 1;
+	grid-row: span 1;
+	height:100%;
+}
+li:nth-child(18){
+	background: blue;
+	grid-column: span 2;
 	grid-row: span 1;
 	height:100%;
 }
